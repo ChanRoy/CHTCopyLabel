@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB42E2F1E5A866900AE0CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB42E2E1E5A866900AE0CB8 /* main.m */; };
+		AEB42E321E5A866900AE0CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB42E311E5A866900AE0CB8 /* AppDelegate.m */; };
+		AEB42E351E5A866900AE0CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB42E341E5A866900AE0CB8 /* ViewController.m */; };
+		AEB42E381E5A866900AE0CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB42E361E5A866900AE0CB8 /* Main.storyboard */; };
+		AEB42E3A1E5A866900AE0CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB42E391E5A866900AE0CB8 /* Assets.xcassets */; };
+		AEB42E3D1E5A866900AE0CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB42E3B1E5A866900AE0CB8 /* LaunchScreen.storyboard */; };
+		AEB42E491E5A86A000AE0CB8 /* CHTCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB42E481E5A86A000AE0CB8 /* CHTCopyLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEB42E2A1E5A866900AE0CB8 /* CHTCopyLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTCopyLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB42E2E1E5A866900AE0CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB42E301E5A866900AE0CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEB42E311E5A866900AE0CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEB42E331E5A866900AE0CB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEB42E341E5A866900AE0CB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEB42E371E5A866900AE0CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB42E391E5A866900AE0CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB42E3C1E5A866900AE0CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB42E3E1E5A866900AE0CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB42E471E5A86A000AE0CB8 /* CHTCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCopyLabel.h; sourceTree = "<group>"; };
+		AEB42E481E5A86A000AE0CB8 /* CHTCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCopyLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB42E271E5A866900AE0CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB42E211E5A866900AE0CB8 = {
+			isa = PBXGroup;
+			children = (
+				AEB42E2C1E5A866900AE0CB8 /* CHTCopyLabelDemo */,
+				AEB42E2B1E5A866900AE0CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB42E2B1E5A866900AE0CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB42E2A1E5A866900AE0CB8 /* CHTCopyLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB42E2C1E5A866900AE0CB8 /* CHTCopyLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AEB42E461E5A86A000AE0CB8 /* CHTCopyLabel */,
+				AEB42E301E5A866900AE0CB8 /* AppDelegate.h */,
+				AEB42E311E5A866900AE0CB8 /* AppDelegate.m */,
+				AEB42E331E5A866900AE0CB8 /* ViewController.h */,
+				AEB42E341E5A866900AE0CB8 /* ViewController.m */,
+				AEB42E361E5A866900AE0CB8 /* Main.storyboard */,
+				AEB42E391E5A866900AE0CB8 /* Assets.xcassets */,
+				AEB42E3B1E5A866900AE0CB8 /* LaunchScreen.storyboard */,
+				AEB42E3E1E5A866900AE0CB8 /* Info.plist */,
+				AEB42E2D1E5A866900AE0CB8 /* Supporting Files */,
+			);
+			path = CHTCopyLabelDemo;
+			sourceTree = "<group>";
+		};
+		AEB42E2D1E5A866900AE0CB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB42E2E1E5A866900AE0CB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB42E461E5A86A000AE0CB8 /* CHTCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AEB42E471E5A86A000AE0CB8 /* CHTCopyLabel.h */,
+				AEB42E481E5A86A000AE0CB8 /* CHTCopyLabel.m */,
+			);
+			name = CHTCopyLabel;
+			path = ../../CHTCopyLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB42E291E5A866900AE0CB8 /* CHTCopyLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB42E411E5A866900AE0CB8 /* Build configuration list for PBXNativeTarget "CHTCopyLabelDemo" */;
+			buildPhases = (
+				AEB42E261E5A866900AE0CB8 /* Sources */,
+				AEB42E271E5A866900AE0CB8 /* Frameworks */,
+				AEB42E281E5A866900AE0CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTCopyLabelDemo;
+			productName = CHTCopyLabelDemo;
+			productReference = AEB42E2A1E5A866900AE0CB8 /* CHTCopyLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB42E221E5A866900AE0CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cht;
+				TargetAttributes = {
+					AEB42E291E5A866900AE0CB8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FFC2UUU5W6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEB42E251E5A866900AE0CB8 /* Build configuration list for PBXProject "CHTCopyLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB42E211E5A866900AE0CB8;
+			productRefGroup = AEB42E2B1E5A866900AE0CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB42E291E5A866900AE0CB8 /* CHTCopyLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB42E281E5A866900AE0CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB42E3D1E5A866900AE0CB8 /* LaunchScreen.storyboard in Resources */,
+				AEB42E3A1E5A866900AE0CB8 /* Assets.xcassets in Resources */,
+				AEB42E381E5A866900AE0CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB42E261E5A866900AE0CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB42E351E5A866900AE0CB8 /* ViewController.m in Sources */,
+				AEB42E321E5A866900AE0CB8 /* AppDelegate.m in Sources */,
+				AEB42E2F1E5A866900AE0CB8 /* main.m in Sources */,
+				AEB42E491E5A86A000AE0CB8 /* CHTCopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB42E361E5A866900AE0CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB42E371E5A866900AE0CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB42E3B1E5A866900AE0CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB42E3C1E5A866900AE0CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB42E3F1E5A866900AE0CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEB42E401E5A866900AE0CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB42E421E5A866900AE0CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFC2UUU5W6;
+				INFOPLIST_FILE = CHTCopyLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTCopyLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEB42E431E5A866900AE0CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFC2UUU5W6;
+				INFOPLIST_FILE = CHTCopyLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTCopyLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB42E251E5A866900AE0CB8 /* Build configuration list for PBXProject "CHTCopyLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB42E3F1E5A866900AE0CB8 /* Debug */,
+				AEB42E401E5A866900AE0CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB42E411E5A866900AE0CB8 /* Build configuration list for PBXNativeTarget "CHTCopyLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB42E421E5A866900AE0CB8 /* Debug */,
+				AEB42E431E5A866900AE0CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB42E221E5A866900AE0CB8 /* Project object */;
+}
